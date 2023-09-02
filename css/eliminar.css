@@ -1,0 +1,131 @@
+/* Estilos del body */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+    opacity: 1;
+    background-image:  radial-gradient(#868686 1.4500000000000002px, transparent 1.4500000000000002px), radial-gradient(#868686 1.4500000000000002px, #ffffff 1.4500000000000002px);
+    background-size: 58px 58px;
+    background-position: 0 0,29px 29px;
+    text-align: center;
+}
+
+/* Estilos del titulo */
+h1{
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+/* Elementos del main con tabla y textos */
+.titulo-listado{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 52px;
+    font-weight: 300;
+}
+
+.contenedor-tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #1C2833;
+    color: white;
+    font-weight: 200;
+    font-size: 22px;
+}
+
+tr{
+    background-color:#E5E7E9;
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #F8F9F9;
+}
+
+.buscar{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+label{
+    font-size: 18px;
+}
+
+#busqueda {
+    padding: 6px;
+    margin-right: 6px;
+    margin-bottom: 20px;
+}
+
+.contenedor-buscar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+}
+
+tbody tr {
+    display: table-row;
+}
+
+tbody tr.hidden {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+p{
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.icono-eliminar{
+    font-size: 24px;
+    cursor: pointer;
+    color: rgb(179,71,71);
+    color: linear-gradient(#ff7f49 0, #ff6f46 16.67%, #fe5942 33.33%, #f23c3c 50%, #e50b37 66.67%, #db0036 83.33%, #d20038 100%);
+    cursor: pointer;
+}
+
+/* Estilos del boton de inicio */
+.boton-inicio{
+    background-image: linear-gradient(to right bottom, #0a47a1, #0079be, #00a2b0, #4bc494, #c4de8a);
+    padding: 1.5rem;
+    border-radius: 12px;
+    font-size: 22px;
+    width: auto;
+    margin-bottom: 50px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.boton-inicio a{
+    text-decoration: none;
+    color: black;
+}

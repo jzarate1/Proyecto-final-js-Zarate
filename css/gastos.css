@@ -1,0 +1,111 @@
+/* Estilosd el body */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+    opacity: 1;
+    background-image:  radial-gradient(#868686 1.4500000000000002px, transparent 1.4500000000000002px), radial-gradient(#868686 1.4500000000000002px, #ffffff 1.4500000000000002px);
+    background-size: 58px 58px;
+    background-position: 0 0,29px 29px;
+    text-align: center;
+}
+
+/* Estilos del titulo */
+.titulo{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 52px;
+    font-weight: 300;
+}
+
+/* Estilos de la tabla con los datos de los productos */
+.contenedor-tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #1C2833;
+    color: white;
+    font-weight: 200;
+    font-size: 22px;
+}
+
+tr{
+    background-color:#E5E7E9;
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #F8F9F9;
+}
+
+.volver-a{
+    padding-bottom: 3rem;
+}
+
+/* Estilos de los textos con informacion de los productos */
+.textos{
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+/* Graficos con los datos de los productos */
+.contenedor-grafico{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+.titulo-grafico{
+    font-size: 34px;
+    font-weight: 300;
+}
+
+.grafico{
+    max-width: 900px;
+    max-height: 400px;
+}
+
+.grafico-ventas{
+    max-width: 900px;
+    max-height: 400px;
+}
+
+/* Estilos del boton de inicio */
+.boton-inicio{
+    background-image: linear-gradient(to right bottom, #0a47a1, #0079be, #00a2b0, #4bc494, #c4de8a);
+    padding: 1.5rem;
+    border-radius: 12px;
+    font-size: 22px;
+    width: auto;
+    margin-bottom: 50px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.boton-inicio a{
+    text-decoration: none;
+    color: black;
+}

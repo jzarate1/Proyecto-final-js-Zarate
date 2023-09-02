@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link de google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Link de SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Link archivo de CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Proyecto Final Java Script</title>
+</head>
+<body>
+    <main class="contenedor">
+        <!-- Titulo -->
+        <h1 class="titulo-pagina">Procesador de inventario</h1>
+
+        <!-- Botones para redireccionar a las distintas paginas -->
+        <div class="botones">
+            <a href="./html/agregar.html">Agregar Producto</a>
+            <a href="./html/actualizar/tabla-actualizar.html">Actualizar Stock</a>
+            <a href="./html/eliminar.html">Eliminar Producto</a>
+            <a href="./html/mostrar-productos.html">Ver stock</a>
+        </div>
+
+        <div class="botones2">
+            <a href="./html/total-gastado.html">Balance entre inversion/ganancias</a>
+            <a href="./html/vender/vender.html">Vender Productos</a>
+        </div>
+        
+        <!-- Mensajes dentro del html -->
+        <div class="textos">
+            <p>Tipos de Productos: <span id="productos-total"></span></p>
+            <p>Productos en Stock: <span id="stock-total"></span></p>
+        </div>
+    </main>
+
+    <!-- Link al script de js -->
+    <script src="/inicio.js" type="module"></script>
+
+</body>
+</html>
